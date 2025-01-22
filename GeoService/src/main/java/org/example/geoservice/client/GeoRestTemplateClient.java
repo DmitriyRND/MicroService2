@@ -19,4 +19,5 @@ public class GeoRestTemplateClient {
         return restTemplate.getForObject(geoApi + ipAddress, GeoResponseDto.class);
     }
 
+
 }
